@@ -1,0 +1,98 @@
+:root {
+    --mainSalmonPink: #f49097;
+    --mainMaize: #f5e960;
+    --mainMauve: #dfb2f4;
+    --mainGhostWhite: #f2f5ff;
+    --mainTurquoise: #55d6c2;
+    --mainNeonBlue: #2667ff;
+    --mainSmokyBlack: #191308;
+    --mainTurkeyRed: #a50104;
+}
+
+@font-face {
+    font-family: 'God of War';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/god-of-war.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Oh Whale - OTF';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Oh-Whale-OTF.woff) format('woff');
+}
+
+@font-face {
+    font-family: raleway;
+    src: url("../fonts/raleway-v28-latin-regular.woff") format(woff);
+}
+
+body {
+    font-family: raleway, Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--mainGhostWhite);
+}
+
+.ask-base-container {
+
+    height: 100vh;
+}
+
+.ask-title {
+    font-family: 'Oh Whale - OTF';
+    text-shadow: var(--mainGhostWhite) 1px 1px 10px;
+    color: var(--mainSmokyBlack);
+}
+
+.ask-container {
+    background-color: var(--mainSalmonPink);
+    box-shadow: var(--mainSalmonPink) .5px .5px 20px;
+    height:450px;
+}
+
+.ask-btn {
+    background-color: var(--mainTurquoise);
+    border: none;
+    outline: none;
+    color: var(--mainGhostWhite);
+    font-size: 20px;
+    font-weight: 700;
+    padding:5px 30px ;
+    transition: .3s;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.21);
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.21);
+}
+
+.ask-btn:hover {
+    transform: scale(1.1);
+    background-color: var(--mainTurquoise);
+    color: var(--mainGhostWhite);
+
+}
+
+.ask-input {
+    border: 0;
+    outline: 0;
+    background-color: var(--mainGhostWhite);
+    color: var(--mainSmokyBlack);
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.3s;
+    box-shadow: 0px 0px 14px 1px rgba(242, 245, 255, 0.21);
+        -webkit-box-shadow: 0px 0px 14px 1px rgba(242, 245, 255, 0.21);
+        -moz-box-shadow: 0px 0px 14px 1px rgba(242, 245, 255, 0.21);
+}
+
+.ask-input:focus {
+    background-color: var(--mainGhostWhite);
+    transform: scale(1.1);
+}
+.message{
+    font-weight: 700;
+    color: var(--mainSmokyBlack);
+}
+i{
+    color: var(--mainGhostWhite)!important;
+    display: none;
+}
