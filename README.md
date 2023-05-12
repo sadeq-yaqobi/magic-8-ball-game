@@ -4,6 +4,13 @@ This is a simple JavaScript project that simulates the classic "Magic 8 Ball" fo
 
 ![preview magic 8 ball image](assets/images/preview-magic8ball-img.png)
 
+## table of content
+
+- [installation](#installation)
+- [Usage](#Usage)
+- [How the JavaScript Code Works](#how-the-javascript-code-works)
+- [Contributing](#Contributing)
+- [Contact](#Contact)
 ## Installation
 
 1. Clone the repository:
