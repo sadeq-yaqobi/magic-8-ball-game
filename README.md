@@ -2,7 +2,7 @@
 
 This is a simple JavaScript project that simulates the classic "Magic 8 Ball" fortune-telling toy. It's designed to help me learn the basic concepts of JavaScript programming.
 
-![preview magic 8 ball image](assets/images/preview-magic8ball-img.png)
+Try the Magic 8 Ball game [here](https://sadeq-yaqobi.github.io/magic-8-ball-game/).
 
 ## table of content
 
@@ -61,5 +61,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
     `git push origin my-feature`
 5. Open a pull request on GitHub.
 
-## Contact
-If you have any questions or suggestions, feel free to reach out to me at sedeq.yaqobi9219@gmail.com
